@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--绑定接口-->
+<!--
+id填方法名
+resulttype填返回值对象
+-->
+<mapper namespace="Service.FindStudent">
+    <select id="findall" resultType="DAO.StudentDAO">
+        select  * from student
+    </select>
+</mapper>

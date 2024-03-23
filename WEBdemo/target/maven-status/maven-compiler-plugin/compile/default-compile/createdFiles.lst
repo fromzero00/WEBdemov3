@@ -1,0 +1,7 @@
+com\example\WEBdemo\RequestService\SreachStudent.class
+com\example\WEBdemo\RequestController\SampleRequest.class
+com\example\WEBdemo\WeBdemoApplication.class
+com\example\WEBdemo\DAO\StudentDAO.class
+com\example\WEBdemo\RequestPO\StudentPO.class
+com\example\WEBdemo\Service\StudentDAO.class
+com\example\WEBdemo\RequestPO\ScorePO.class

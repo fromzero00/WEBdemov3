@@ -1,0 +1,11 @@
+spring:
+  mvc:
+    servlet:
+      load-on-startup: 1
+  datasource:
+    url: jdbc:mysql://192.168.31.113:3306/mytest
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 8081
